@@ -79,7 +79,7 @@ void walker_process()
               << steps << " steps (max steps reached)." << std::endl;
     MPI_Send(&steps, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
 }
-}
+
 
 void controller_process()
 {
